@@ -1,10 +1,12 @@
 ## Pathfinding Algorithm Visualizer
-* finds your path
+* Interactive tool for path exploration between two nodes using popular algorithms.
+* Supports loading and saving your own boards, as well as randomized preloaded mazes.
 
 ## Images
 <p float="left">
-  <img src="/images/newsletter1.jpeg" width=20% height=20% />
-  <img src="/images/newsletter2.jpeg" width=20% height=20% />
+  <img src="/images/screenshot1.PNG" width=20% height=20% />
+  <img src="/images/screenshot2.PNG" width=20% height=20% />
+  <img src="/images/screenshot3.PNG" width=20% height=20% />
 </p>
 
 ## Technologies
