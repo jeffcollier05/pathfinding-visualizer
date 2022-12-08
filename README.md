@@ -1,12 +1,12 @@
 ## Pathfinding Algorithm Visualizer
 * Interactive tool for path exploration between two nodes using popular algorithms.
+* Provides visual representation of algorithms in-action.
 * Supports loading and saving your own boards, as well as randomized preloaded mazes.
 
 ## Images
 <p float="left">
-  <img src="/images/screenshot1.PNG" width=20% height=20% />
-  <img src="/images/screenshot2.PNG" width=20% height=20% />
-  <img src="/images/screenshot3.PNG" width=20% height=20% />
+  <img src="/images/screenshot1.PNG" width=45% height=40% />
+  <img src="/images/screenshot2.PNG" width=45% height=40% />
 </p>
 
 ## Technologies
@@ -25,3 +25,16 @@ Run in terminal:
 ```
 > python pathfinder.py
 ```
+Program controls:
+* Your first left mouse click will place the start node.
+* Second click will place the end node.
+* All remaining clicks will place walls.
+* Your right mouse click will remove selected node.
+* Keyboard press "1" runs the A* search algorithm.
+* Keyboard press "2" runs the Dijkstra's algorithm.
+* Keyboard press "3" runs the Depth-first search algorithm.
+* Keyboard press "R" loads a random preloaded maze.
+* Keyboard press "C" clears the board.
+* Keyboard press "S" saves your current board layout.
+* Keyboard press "L" loads a saved board layout.
+* Keyboard press "H" prints this menu for help.
