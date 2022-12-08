@@ -25,16 +25,25 @@ Run in terminal:
 ```
 > python pathfinder.py
 ```
+Node color indications:
+* Blue/yellow are the start/end
+* White is unexplored area
+* Black are barriers
+* Green is the edge of exploration
+* Red is explored area
+* Purple is the identified path
+
+
 Program controls:
-* Your first left mouse click will place the start node.
-* Second click will place the end node.
-* All remaining clicks will place walls.
-* Your right mouse click will remove selected node.
-* Keyboard press "1" runs the A* search algorithm.
-* Keyboard press "2" runs the Dijkstra's algorithm.
-* Keyboard press "3" runs the Depth-first search algorithm.
-* Keyboard press "R" loads a random preloaded maze.
-* Keyboard press "C" clears the board.
-* Keyboard press "S" saves your current board layout.
-* Keyboard press "L" loads a saved board layout.
-* Keyboard press "H" prints this menu for help.
+* Your first left mouse click will place the start node
+* Second click will place the end node
+* All remaining clicks will place walls
+* Your right mouse click will remove selected node
+* Keyboard press "1" runs the A* search algorithm
+* Keyboard press "2" runs the Dijkstra's algorithm
+* Keyboard press "3" runs the Depth-first search algorithm
+* Keyboard press "R" loads a random preloaded maze
+* Keyboard press "C" clears the board
+* Keyboard press "S" saves your current board layout
+* Keyboard press "L" loads a saved board layout
+* Keyboard press "H" prints this menu for help
